@@ -1,0 +1,46 @@
+{
+  "name": "seed-society",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.4.2",
+    "@heroicons/react": "^1.0.5",
+    "@metaplex/js": "^4.11.7",
+    "@project-serum/anchor": "^0.19.1-beta.1",
+    "@rollup/plugin-inject": "^4.0.4",
+    "@solana/buffer-layout-utils": "^0.2.0",
+    "@solana/spl-token": "^0.1.8",
+    "@solana/wallet-adapter-base": "^0.9.2",
+    "@solana/wallet-adapter-ledger": "^0.9.5",
+    "@solana/wallet-adapter-phantom": "^0.9.2",
+    "@solana/wallet-adapter-react": "^0.15.2",
+    "@solana/wallet-adapter-react-ui": "^0.9.4",
+    "@solana/wallet-adapter-slope": "^0.5.2",
+    "@solana/wallet-adapter-solflare": "^0.6.2",
+    "@solana/web3.js": "^1.32.0",
+    "@types/jest": "^27.4.0",
+    "@types/node": "^17.0.6",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "amplitude-js": "^8.16.1",
+    "next": "^12.0.9",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-countdown": "^2.3.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-status-alert": "^1.1.2",
+    "react-toastify": "^8.1.0",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.7"
+  }
+}

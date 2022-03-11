@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Dogica';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/dogica.ttf');
+  }
+  @font-face {
+    font-family: 'Dogica';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/fonts/dogicabold.ttf');
+  }
+  @font-face {
+    font-family: 'JMH Cthulhumbus Arcade';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/jmh-cthulhumbus-arcade.cthulhumbusarcadeug-regular.ttf');
+  }
+}
