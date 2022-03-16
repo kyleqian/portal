@@ -11,38 +11,42 @@ const LeaderboardContent = () => {
 
   const content = gardeners ?
     <div>
-      <p className='text-center text-2xl py-8'>
-        <strong>🏆 Top Gardeners 🏆</strong>
+      <p className='flex flex-row items-center justify-center text-center text-2xl py-8 gap-6'>
+        <img src="/images/trophy.png" className='w-16' />
+        <strong>Top Gardeners</strong>
+        <img src="/images/trophy.png" className='w-16' />
       </p>
       <p className='text-center text-sm pb-8'>
-        Seed Citizens who help others the most
+        Most waters given to other gardeners` plants
       </p>
-      <div className='pl-20'>
+      <div className='pl-36 text-[0.85rem]'>
         {gardeners.map((gardener, index) => {
           let place;
           let bold = false;
-          let paddingBottom = false;
           switch (index) {
             case 0:
-              place = '🥇';
+              place = '';
               bold = true;
               break;
             case 1:
-              place = '🥈';
+              place = '';
               bold = true;
               break;
             case 2:
-              place = '🥉';
+              place = '';
               bold = true;
-              paddingBottom = true;
               break;
             default:
               place = index + 1;
               break;
           }
           return (
-            <p className={`py-2 text-md ${paddingBottom ? 'pb-8' : ''}`} key={gardener.name}>
-              <strong>{place}</strong> <span className={`${bold ? 'font-bold' : ''}`}>{gardener.name}</span> ({gardener.wateredOthers})
+            <p className={`flex flex-row items-center gap-4 py-2 text-md`} key={gardener.name}>
+              {index === 0 && <img src='/images/1.png' className='w-8' />}
+              {index === 1 && <img src='/images/2.png' className='w-8' />}
+              {index === 2 && <img src='/images/3.png' className='w-8' />}
+              {index > 2 && <strong className='pl-2'>{place}</strong>}
+              <span className={`${bold ? 'font-bold' : ''}`}>{gardener.name}</span> ({gardener.wateredOthers})
             </p>
           );
         })}
