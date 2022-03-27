@@ -9,32 +9,6 @@ const Roadmap = () => {
             Roadmap
           </h2>
           <div className='mt-12 flex flex-col space-y-8 text-2xs'>
-            <div className='lg:flex items-center lg:space-x-10'>
-              <div className='flex flex-1 space-x-2'>
-                <div className='w-6 h-6 flex items-center justify-center flex-shrink-0'>
-                  <img
-                    src='/images/bb-waterdrop-1.png'
-                    className='w-full h-full object-contain'
-                    alt=''
-                  />
-                </div>
-                <div className='flex-1'>
-                  <h4 className='text-stone-600 font-bold mb-2'>
-                    Tuber Minting
-                  </h4>
-                  <p className='text-stone-600 leading-loose'>
-                    Mint your <strong>Tiny Tuber</strong> in
-                    the Nursery. From then on, this Tuber is under your care, and
-                    is <strong>untradeable</strong> until it reaches adulthood. Following whitelists will be announced in the coming weeks.
-                  </p>
-                </div>
-              </div>
-              <div className='hidden lg:block flex-1 -mb-10'>
-                <div>
-                  <img src='/images/curve-1.png' alt='' />
-                </div>
-              </div>
-            </div>
             <div className='lg:flex items-center justify-center lg:space-x-10'>
               <div className='hidden lg:block flex-1 -mb-10'>
                 <div className='flex justify-end'>
@@ -51,11 +25,12 @@ const Roadmap = () => {
                 </div>
                 <div className='flex-1'>
                   <h4 className='text-stone-600 font-bold mb-2'>
-                    2022 Q1: Tuber Nursery
+                    Tuber Minting
                   </h4>
                   <p className='text-stone-600 leading-loose'>
-                    Grow your Tiny Tuber by watering it in the Nursery. <strong>Collaborate with other gardeners</strong> in the Seed Society
-                    Discord.
+                    Mint your <strong>Tiny Tuber</strong> in
+                    the Nursery. From then on, this Tuber is under your care, and
+                    is <strong>untradeable</strong> until it reaches adulthood. Following whitelists will be announced in the coming weeks.
                   </p>
                 </div>
               </div>
@@ -76,13 +51,11 @@ const Roadmap = () => {
                 </div>
                 <div className='flex-1'>
                   <h4 className='text-stone-600 font-bold mb-2'>
-                    2022 Q1: The Gardener Leaderboard
+                    2022 Q1: Tuber Nursery
                   </h4>
                   <p className='text-stone-600 leading-loose'>
-                    Climb the leaderboard by helping water other gardeners` Tubers.
-                    <strong>The most generous gardeners will be
-                      invited to the Seed Council</strong>, and will have a greater impact
-                    on the expansion of Seed Society.
+                    Grow your Tiny Tuber by watering it in the Nursery. <strong>Collaborate with other gardeners</strong> in the Seed Society
+                    Discord.
                   </p>
                 </div>
               </div>
@@ -99,7 +72,7 @@ const Roadmap = () => {
                 </div>
               </div>
               <div className='flex flex-1 space-x-2'>
-                <div className='w-6 h-6 flex items-center justify-center flex-shrink-0'>
+                <div className='w-6 h-6 flex items-center justify-center flex-shrink-0 mt-6'>
                   <img
                     src='/images/bb-waterdrop-1.png'
                     className='w-full h-full object-contain'
@@ -107,13 +80,11 @@ const Roadmap = () => {
                   />
                 </div>
                 <div className='flex-1'>
-                  <h4 className='text-stone-600 font-bold mb-2'>
-                    2022 Q1/Q2: Tuber Graduation
+                  <h4 className='text-stone-600 font-bold mb-2 mt-6'>
+                    2022 Q1: The Gardener Leaderboard
                   </h4>
                   <p className='text-stone-600 leading-loose'>
-                    Celebrate - your Tuber is now all grown up! Keep your Tuber
-                    in your collection, or share it with others. Tiny Tubers
-                    will be <strong>listed in Magic Eden</strong> and other marketplaces.
+                    Climb the leaderboard by helping water other gardeners` Tubers.
                   </p>
                 </div>
               </div>
@@ -129,11 +100,12 @@ const Roadmap = () => {
                 </div>
                 <div className='flex-1'>
                   <h4 className='text-stone-600 font-bold mb-2'>
-                    2022 Q2: The Seed Society Expansion
+                    2022 Q1/Q2: Tuber Graduation
                   </h4>
                   <p className='text-stone-600 leading-loose'>
-                    Gardeners with fully grown Tubers will gain seed access to
-                    future growable collections and community exclusives.
+                    Celebrate - your Tuber is now all grown up! Keep your Tuber
+                    in your collection, or share it with others. Tiny Tubers
+                    will be <strong>listed in Magic Eden</strong> and other marketplaces.
                   </p>
                 </div>
               </div>
