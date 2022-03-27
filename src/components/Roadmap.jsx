@@ -91,7 +91,7 @@ const Roadmap = () => {
             </div>
             <div className='lg:pt-36'>
               <div className='flex flex-1 space-x-2 lg:w-1/2'>
-                <div className='w-6 h-6 flex items-center justify-center flex-shrink-0'>
+                <div className='w-6 h-6 flex items-center justify-center flex-shrink-0 mt-6'>
                   <img
                     src='/images/bb-waterdrop-1.png'
                     className='w-full h-full object-contain'
@@ -99,7 +99,7 @@ const Roadmap = () => {
                   />
                 </div>
                 <div className='flex-1'>
-                  <h4 className='text-stone-600 font-bold mb-2'>
+                  <h4 className='text-stone-600 font-bold mb-2 mt-6'>
                     2022 Q1/Q2: Tuber Graduation
                   </h4>
                   <p className='text-stone-600 leading-loose'>

@@ -137,7 +137,6 @@ const MintATuber = ({ setMinted, txTimeout, ownedPlants }: MintATuberProps) => {
   const title = wallet ? (ownedPlants && ownedPlants.length > 0 ? 'Welcome back to the Nursery!' : 'It looks like you don`t have a Tiny Tuber yet!') : <>Welcome to the Nursery!<br /><br />Please connect your wallet to continue.</>;
   const subtitle = wallet ?
     <>
-      <p>Open to the public</p>
       <p>Cost: 0.5 SOL</p>
       <p>Supply: {candyMachine?.state.itemsRemaining} remaining</p>
       <p>You own {ownedPlants ? ownedPlants.length : 0} Tuber{ownedPlants && ownedPlants.length === 1 ? '' : 's'} (max 2)</p>
