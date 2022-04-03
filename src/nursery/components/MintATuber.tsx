@@ -46,8 +46,7 @@ const MintATuber = ({ setMinted, txTimeout, ownedPlants }: MintATuberProps) => {
     })();
   };
 
-  const canMint = candyMachine && !candyMachine.state.isSoldOut && !(ownedPlants && ownedPlants.length > 1);
-  // const canMint = false;
+  const canMint = candyMachine && !candyMachine.state.isSoldOut;
 
   const onMint = useCallback(async () => {
     try {
@@ -139,7 +138,7 @@ const MintATuber = ({ setMinted, txTimeout, ownedPlants }: MintATuberProps) => {
     <>
       <p>Cost: 0.5 SOL</p>
       <p>Supply: {candyMachine?.state.itemsRemaining} remaining</p>
-      <p>You own {ownedPlants ? ownedPlants.length : 0} Tuber{ownedPlants && ownedPlants.length === 1 ? '' : 's'} (max 2)</p>
+      <p>You own {ownedPlants ? ownedPlants.length : 0} Tuber{ownedPlants && ownedPlants.length === 1 ? '' : 's'}</p>
       <br />
       <p><strong>To avoid any surprises,<br />please read the watering rules below before minting!</strong></p>
     </> :
