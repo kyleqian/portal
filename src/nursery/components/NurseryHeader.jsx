@@ -4,9 +4,9 @@ import { classNames } from '../../utils';
 import 'react-status-alert/dist/status-alert.css';
 
 const links = [
-  { name: 'Home', href: '/' },
   { name: 'Nursery', href: '/nursery' },
   { name: 'Minting', href: '/minting' },
+  { name: 'Leaderboard', href: '/leaderboard' },
 ];
 
 export default function NurseryHeader() {
@@ -20,13 +20,14 @@ export default function NurseryHeader() {
                 <a
                   href={link.href}
                   className={classNames(
-                    'inline-block transition py-2 text-sm text-white hover:text-gray-200 xl:text-gray-700 xl:hover:text-black'
+                    'inline-block transition py-2 text-xs text-white hover:text-gray-200 xl:text-gray-700 xl:hover:text-black sm:text-sm'
                   )}
                 >
                   {link.name}
                 </a>
               </li>
             ))}
+            <br />
             <li>
               <a
                 href='https://discord.com/invite/tA8J3fM6pq'
